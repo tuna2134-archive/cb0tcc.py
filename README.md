@@ -2,7 +2,9 @@
 
 ## How to install.
 
-`pip install git+https://github.com/tuna2134/cb0tcc.py`
+```bash
+pip install git+https://github.com/tuna2134/cb0tcc.py
+```
 
 ## How to use.
 
