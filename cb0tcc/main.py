@@ -1,7 +1,7 @@
 import requests
 from .error import *
 
-class cbot:
+class cb0t:
     def __init__(self, url:str):
         self.r = requests.post("https://cb0t.cc/api/create", data = {"url": url})
         if self.r.status_code == 400:
