@@ -9,6 +9,6 @@
 ```python
 import cb0tcc
 
-cbot = cb0tcc.cbot("https://example.com")
+cbot = cb0tcc.cb0t("https://example.com")
 print(cbot.url)
 ```
