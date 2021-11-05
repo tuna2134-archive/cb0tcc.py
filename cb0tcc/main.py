@@ -11,4 +11,4 @@ class cb0t:
 
     @property
     def url(self):
-        return self.r["url"]
+        return self.r.json()["url"]
