@@ -7,7 +7,7 @@ def _requires_from_file(filename):
     return open(filename, encoding="utf8").read().splitlines()
 
 setuptools.setup(
-    name="cb0t.py",
+    name="cb0tcc.py",
     version="0.0.1",
     author="DMS",
     author_email="masato190411@gmail.com",
