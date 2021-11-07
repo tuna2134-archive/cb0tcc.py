@@ -1,6 +1,6 @@
 from aiohttp import ClientSession
 
-class acb0tcc:
+class acb0t:
     def __init__(self, url):
         self.__url = url
 
