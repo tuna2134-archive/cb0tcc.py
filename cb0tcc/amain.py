@@ -1,12 +1,9 @@
 from aiohttp import ClientSession
 
-class acb0t:
-    def __init__(self, url):
-        self.__url = url
-
-    async def connect(self):
+class aiocb0t:
+    async def create(self, url):
         async with ClientSession() as session:
-            async with session.post("https://cb0t.cc/api/create", data = {"url": self.__url}) as r:
+            async with session.post("https://cb0t.cc/api/create", data = {"url": url}) as r:
                 self.data = await r.json()
 
     @property
