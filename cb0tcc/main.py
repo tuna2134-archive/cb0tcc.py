@@ -3,6 +3,9 @@ from .error import *
 
 class cb0t:
     def __init__(self, url:str):
+        """
+        This can create shorten url.
+        """
         self.r = requests.post("https://cb0t.cc/api/create", data = {"url": url})
         if self.r.status_code == 400:
             raise Invalidurl("Invalid url specified.")
@@ -11,4 +14,7 @@ class cb0t:
 
     @property
     def url(self):
+        """
+        This return shorten url.
+        """
         return self.r.json()["url"]
