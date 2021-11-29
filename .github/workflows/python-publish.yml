@@ -25,3 +25,6 @@ jobs:
         # ソース配布型
         python setup.py sdist bdist_wheel
         twine upload dist/*
+        pdoc cb0tcc --html -o docs --force
+        mv docs/cb0tcc/index.html docs/index.html
+        rm -r docs/cb0tcc
