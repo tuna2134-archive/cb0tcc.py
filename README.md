@@ -1,5 +1,7 @@
 # cb0t.py
 
+[![Downloads](https://pepy.tech/badge/cb0tcc-py)](https://pepy.tech/project/cb0tcc-py) [![Downloads](https://pepy.tech/badge/cb0tcc-py/month)](https://pepy.tech/project/cb0tcc-py) [![Downloads](https://pepy.tech/badge/cb0tcc-py/week)](https://pepy.tech/project/cb0tcc-py)
+
 ## How to install.
 
 ```bash
