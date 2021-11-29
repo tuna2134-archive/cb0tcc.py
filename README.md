@@ -8,11 +8,22 @@ pip install git+https://github.com/tuna2134/cb0tcc.py
 
 ## Sync mode
 
+### short a url
+
 ```python
 import cb0tcc
 
-cbot = cb0tcc.cb0t("https://example.com")
-print(cbot.url)
+cbot = cb0tcc.cb0t()
+print(cbot.create("https://example.com"))
+```
+
+### view a shortenurl
+
+```python
+import cb0tcc
+
+cbot = cb0tcc.cb0t()
+print(cbot.view("https://cb0t.cc/1"))
 ```
 
 ## async mode
