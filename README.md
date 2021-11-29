@@ -23,5 +23,5 @@ from cbotcc import aiocb0t
 async def main():
     aiocbot = aiocb0t()
     aiocbot.create("https://example.com")
-    print(aiocbpt.url)
+    print(aiocbot.url)
 ```
